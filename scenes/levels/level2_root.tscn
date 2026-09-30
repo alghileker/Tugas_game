@@ -1,14 +1,14 @@
-[gd_scene format=4 uid="uid://c5twwmr64n4vp"]
+[gd_scene format=4 uid="uid://c4bj4wqilb3iu"]
 
-[ext_resource type="Texture2D" uid="uid://bybyaiddjcbt5" path="res://assets/images/Background/Blue.png" id="1_dd0lh"]
-[ext_resource type="Texture2D" uid="uid://bdqce7pk6ex54" path="res://assets/images/Tilemap/Terrain (16x16).png" id="1_x6ivy"]
-[ext_resource type="PackedScene" uid="uid://esyt5c31f3v4" path="res://player.tscn" id="2_4tcl0"]
-[ext_resource type="PackedScene" uid="uid://rqtevkdaicuk" path="res://area_2d.tscn" id="4_bfxgj"]
-[ext_resource type="PackedScene" uid="uid://nllyn6intm12" path="res://scenes/buahsakti.tscn" id="5_dywbp"]
-[ext_resource type="Texture2D" uid="uid://bwfyf8nrfelsn" path="res://assets/images/Tilemap/Checkpoint (Flag Idle)(64x64).png" id="6_1seuy"]
+[ext_resource type="Texture2D" uid="uid://bybyaiddjcbt5" path="res://assets/images/Background/Blue.png" id="1_jxtej"]
+[ext_resource type="Texture2D" uid="uid://bdqce7pk6ex54" path="res://assets/images/Tilemap/Terrain (16x16).png" id="2_v1idq"]
+[ext_resource type="PackedScene" uid="uid://esyt5c31f3v4" path="res://player.tscn" id="3_jboct"]
+[ext_resource type="PackedScene" uid="uid://rqtevkdaicuk" path="res://area_2d.tscn" id="4_vunq0"]
+[ext_resource type="PackedScene" uid="uid://nllyn6intm12" path="res://scenes/buahsakti.tscn" id="5_mrnic"]
+[ext_resource type="Texture2D" uid="uid://bwfyf8nrfelsn" path="res://assets/images/Tilemap/Checkpoint (Flag Idle)(64x64).png" id="6_uggg1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4tcl0"]
-texture = ExtResource("1_x6ivy")
+texture = ExtResource("2_v1idq")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -178,43 +178,43 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_4tcl0")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2r1tl"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(0, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8a7m2"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(64, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_plydf"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(128, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ntmo"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(192, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nkeig"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(256, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nfihu"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(320, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lgguw"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(384, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jprdt"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(448, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ps2vj"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(512, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sbmf2"]
-atlas = ExtResource("6_1seuy")
+atlas = ExtResource("6_uggg1")
 region = Rect2(576, 0, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_htemk"]
@@ -264,38 +264,38 @@ size = Vector2(30, 94)
 texture_filter = 1
 offset_right = 1292.0
 offset_bottom = 724.0
-texture = ExtResource("1_dd0lh")
+texture = ExtResource("1_jxtej")
 stretch_mode = 1
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1595054222]
 texture_filter = 1
 scale = Vector2(3, 3)
-tile_map_data = PackedByteArray("AAAAAA4AAAAAAAoAAAAAAA0AAAAAAAkAAAAAAAwAAAAAAAkAAAAAAAsAAAAAAAkAAAAAAAoAAAAAAAkAAAAAAAkAAAAAAAkAAAAAAAgAAAAAAAkAAAAAAAcAAAAAAAkAAAAAAAYAAAAAAAkAAAAAAAUAAAAAAAkAAAAAAAQAAAAAAAkAAAAAAAMAAAAAAAkAAAAAAAIAAAAAAAkAAAAAAAEAAAAAAAkAAAAAAAAAAAAAAAgAAAABAAAAAAABAAgAAAACAAAAAAABAAgAAAADAAAAAAABAAgAAAAEAAAAAAABAAgAAAAFAAAAAAABAAgAAAAGAAAAAAABAAgAAAAHAAAAAAABAAgAAAAIAAAAAAABAAgAAAAJAAAAAAABAAgAAAAKAAAAAAABAAgAAAALAAAAAAABAAgAAAAMAAAAAAABAAgAAAANAAAAAAABAAgAAAAOAAAAAAABAAgAAAAPAAAAAAABAAgAAAAQAAAAAAABAAgAAAARAAAAAAABAAgAAAASAAAAAAABAAgAAAATAAAAAAABAAgAAAAUAAAAAAABAAgAAAAVAAAAAAABAAgAAAAWAAAAAAABAAgAAAAXAAAAAAABAAgAAAAYAAAAAAABAAgAAAAZAAAAAAABAAgAAAAaAAAAAAACAAgAAAAaAAEAAAACAAkAAAAaAAQAAAACAAkAAAAaAAUAAAACAAkAAAAaAAYAAAACAAkAAAAaAAcAAAACAAkAAAAaAAgAAAACAAkAAAAaAAkAAAACAAkAAAAaAAoAAAACAAkAAAAaAAsAAAACAAkAAAAaAAwAAAACAAkAAAAaAA0AAAACAAkAAAAaAA4AAAACAAoAAAAZAA4AAAABAAoAAAAYAA4AAAABAAoAAAAXAA4AAAABAAoAAAAWAA4AAAABAAoAAAAVAA4AAAABAAoAAAAUAA4AAAABAAoAAAATAA4AAAABAAoAAAASAA4AAAABAAoAAAARAA4AAAABAAoAAAAQAA4AAAABAAoAAAAPAA4AAAABAAoAAAAOAA4AAAABAAoAAAANAA4AAAABAAoAAAAMAA4AAAABAAoAAAALAA4AAAABAAoAAAAKAA4AAAABAAoAAAAJAA4AAAABAAoAAAAIAA4AAAABAAoAAAAHAA4AAAABAAoAAAAGAA4AAAABAAoAAAAFAA4AAAABAAoAAAAEAA4AAAABAAoAAAADAA4AAAABAAoAAAACAA4AAAABAAoAAAABAA4AAAABAAoAAAABAAgAAAAMAAgAAAABAAwAAAANAAkAAAABAA0AAAANAAoAAAACAA0AAAAOAAoAAAACAAwAAAAOAAkAAAACAAgAAAANAAgAAAADAAgAAAANAAgAAAAEAAgAAAANAAgAAAAFAAgAAAANAAgAAAAGAAgAAAAOAAgAAAAJAAsAAAANAAkAAAAJAAwAAAANAAoAAAAKAAwAAAAOAAoAAAAKAAsAAAAOAAkAAAASAAwAAAAMAAgAAAATAAwAAAANAAgAAAAUAAwAAAANAAgAAAAVAAwAAAANAAgAAAAWAAcAAAAMAAgAAAAWAAwAAAANAAgAAAAXAAwAAAANAAgAAAAXAAcAAAANAAgAAAAYAAQAAAAMAAgAAAAYAAcAAAANAAgAAAAYAAwAAAANAAgAAAAZAAwAAAAOAAgAAAAZAAcAAAAOAAgAAAAZAAQAAAAOAAgAAAANAAkAAAANAAkAAAANAAoAAAANAAoAAAAOAAkAAAAOAAkAAAAOAAoAAAAOAAoAAAAQAAcAAAANAAkAAAAQAAgAAAANAAoAAAARAAcAAAAOAAkAAAARAAgAAAAOAAoAAAATAAUAAAAMAAgAAAAUAAUAAAAOAAgAAAA=")
+tile_map_data = PackedByteArray("AAAAAA4AAAAAAAoAAAAAAA0AAAAAAAkAAAAAAAwAAAAAAAkAAAAAAAsAAAAAAAkAAAAAAAoAAAAAAAkAAAAAAAkAAAAAAAkAAAAAAAgAAAAAAAkAAAAAAAcAAAAAAAkAAAAAAAYAAAAAAAkAAAAAAAUAAAAAAAkAAAAAAAQAAAAAAAkAAAAAAAMAAAAAAAkAAAAAAAIAAAAAAAkAAAAAAAEAAAAAAAkAAAAAAAAAAAAAAAgAAAABAAAAAAABAAgAAAACAAAAAAABAAgAAAADAAAAAAABAAgAAAAEAAAAAAABAAgAAAAFAAAAAAABAAgAAAAGAAAAAAABAAgAAAAHAAAAAAABAAgAAAAIAAAAAAABAAgAAAAJAAAAAAABAAgAAAAKAAAAAAABAAgAAAALAAAAAAABAAgAAAAMAAAAAAABAAgAAAANAAAAAAABAAgAAAAOAAAAAAABAAgAAAAPAAAAAAABAAgAAAAQAAAAAAABAAgAAAARAAAAAAABAAgAAAASAAAAAAABAAgAAAATAAAAAAABAAgAAAAUAAAAAAABAAgAAAAVAAAAAAABAAgAAAAWAAAAAAABAAgAAAAXAAAAAAABAAgAAAAYAAAAAAABAAgAAAAZAAAAAAABAAgAAAAaAAAAAAACAAgAAAAaAAEAAAACAAkAAAAaAAQAAAACAAkAAAAaAAUAAAACAAkAAAAaAAYAAAACAAkAAAAaAAcAAAACAAkAAAAaAAgAAAACAAkAAAAaAAkAAAACAAkAAAAaAAoAAAACAAkAAAAaAAsAAAACAAkAAAAaAAwAAAACAAkAAAAaAA0AAAACAAkAAAAaAA4AAAACAAoAAAAZAA4AAAABAAoAAAAYAA4AAAABAAoAAAAXAA4AAAABAAoAAAAWAA4AAAABAAoAAAAVAA4AAAABAAoAAAAUAA4AAAABAAoAAAATAA4AAAABAAoAAAASAA4AAAABAAoAAAARAA4AAAABAAoAAAAQAA4AAAABAAoAAAAPAA4AAAABAAoAAAAOAA4AAAABAAoAAAANAA4AAAABAAoAAAAMAA4AAAABAAoAAAALAA4AAAABAAoAAAAKAA4AAAABAAoAAAAJAA4AAAABAAoAAAAIAA4AAAABAAoAAAAHAA4AAAABAAoAAAAGAA4AAAABAAoAAAAFAA4AAAABAAoAAAAEAA4AAAABAAoAAAADAA4AAAABAAoAAAACAA4AAAABAAoAAAABAA4AAAABAAoAAAAWAAcAAAAMAAgAAAAXAAcAAAANAAgAAAAYAAQAAAAMAAgAAAAYAAcAAAANAAgAAAAZAAcAAAAOAAgAAAAZAAQAAAAOAAgAAAAFAAsAAAASAAkAAAAFAAwAAAASAAoAAAAGAAsAAAATAAkAAAAGAAwAAAATAAoAAAAJAAkAAAASAAkAAAAJAAoAAAASAAoAAAAKAAkAAAATAAkAAAAKAAoAAAATAAoAAAANAAcAAAASAAkAAAANAAgAAAASAAoAAAAOAAcAAAATAAkAAAAOAAgAAAATAAoAAAAQAAUAAAASAAkAAAAQAAYAAAASAAoAAAARAAUAAAATAAkAAAARAAYAAAATAAoAAAATAAMAAAASAAkAAAATAAQAAAASAAoAAAAUAAMAAAATAAkAAAAUAAQAAAATAAoAAAAVAAMAAAASAAkAAAAVAAQAAAASAAoAAAAWAAMAAAATAAkAAAAWAAQAAAATAAoAAAABAAwAAAASAAkAAAABAA0AAAASAAoAAAACAAwAAAATAAkAAAACAA0AAAATAAoAAAAHAA0AAAARAAgAAAAIAA0AAAASAAgAAAAJAA0AAAATAAgAAAA=")
 tile_set = SubResource("TileSet_htemk")
 
-[node name="Player" parent="." unique_id=257991682 instance=ExtResource("2_4tcl0")]
+[node name="Player" parent="." unique_id=257991682 instance=ExtResource("3_jboct")]
 position = Vector2(89, 518)
 
 [node name="Enemy" type="Node2D" parent="." unique_id=156671004]
 
-[node name="Area2D2" parent="Enemy" unique_id=1289678614 instance=ExtResource("4_bfxgj")]
-position = Vector2(324, 322)
+[node name="Area2D2" parent="Enemy" unique_id=1289678614 instance=ExtResource("4_vunq0")]
+position = Vector2(1116, 610)
 
-[node name="Area2D" parent="Enemy" unique_id=1987728637 instance=ExtResource("4_bfxgj")]
-position = Vector2(794, 612)
+[node name="Area2D" parent="Enemy" unique_id=1987728637 instance=ExtResource("4_vunq0")]
+position = Vector2(811, 614)
 
 [node name="buah_sakti" type="Node2D" parent="." unique_id=1158070617]
 
-[node name="buahsakti" parent="buah_sakti" unique_id=1928851111 instance=ExtResource("5_dywbp")]
-position = Vector2(487, 477)
+[node name="buahsakti" parent="buah_sakti" unique_id=1928851111 instance=ExtResource("5_mrnic")]
+position = Vector2(288, 502)
 
-[node name="buahsakti2" parent="buah_sakti" unique_id=486316813 instance=ExtResource("5_dywbp")]
+[node name="buahsakti2" parent="buah_sakti" unique_id=486316813 instance=ExtResource("5_mrnic")]
 position = Vector2(1206, 160)
 
-[node name="buahsakti3" parent="buah_sakti" unique_id=266469819 instance=ExtResource("5_dywbp")]
+[node name="buahsakti3" parent="buah_sakti" unique_id=266469819 instance=ExtResource("5_mrnic")]
 position = Vector2(668, 400)
 
-[node name="buahsakti4" parent="buah_sakti" unique_id=562168424 instance=ExtResource("5_dywbp")]
+[node name="buahsakti4" parent="buah_sakti" unique_id=562168424 instance=ExtResource("5_mrnic")]
 position = Vector2(829, 304)
 
 [node name="Flag" type="AnimatedSprite2D" parent="." unique_id=1505330996]

@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="alghi project"
+config/name="alghi project:'"
 run/main_scene="uid://drk7rm8qkxkkq"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
